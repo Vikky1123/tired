@@ -1,0 +1,350 @@
+=== Registration attempt at 2025-04-16 16:10:07 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => test_user_1869
+    [email] => test_user_1869@example.com
+    [password] => password123
+    [full_name] => Test User
+    [phone] => 1234567890
+    [country] => Test Country
+)
+
+Success: User created with ID: 7
+=== Registration attempt at 2025-04-16 16:18:55 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => test_user_2656
+    [email] => test_user_2656@example.com
+    [password] => password123
+    [full_name] => Test User
+    [phone] => 1234567890
+    [country] => Test Country
+)
+
+Success: User created with ID: 8
+=== Registration attempt at 2025-04-16 16:24:46 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => wait
+    [full_name] => vikky joel
+    [email] => victorjoelojas@gmail.com
+    [phone] => 2345676545676
+    [country] => NG
+    [password] => 12345678
+)
+
+Success: User created with ID: 9
+=== Registration attempt at 2025-04-16 16:25:41 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => JUST
+    [full_name] => great
+    [email] => justme@gmail.com
+    [phone] => 6484744787487
+    [country] => BY
+    [password] => 12345678
+)
+
+Success: User created with ID: 10
+=== Registration attempt at 2025-04-16 16:27:49 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => wow
+    [full_name] => girl
+    [email] => prettygirl@gmail.com
+    [phone] => 12345678
+    [country] => BB
+    [password] => 12345678
+)
+
+Success: User created with ID: 11
+=== Registration attempt at 2025-04-16 18:16:30 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [full_name] => hsh
+    [email] => gome@gmail.com
+    [phone] => 78377338
+    [country] => BY
+    [password] => 12345678
+)
+
+Success: User created with ID: 12
+=== Registration attempt at 2025-04-16 20:31:50 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => b jb
+    [full_name] => vbnb
+    [email] => bbk75058@gmail.com
+    [phone] => 78099099
+    [country] => NG
+    [password] => 12345
+)
+
+Success: User created with ID: 13
+=== Registration attempt at 2025-04-16 21:54:06 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => woke@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Success: User created with ID: 14
+=== Registration attempt at 2025-04-16 22:23:27 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => woke@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:23:51 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:24:01 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:24:51 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => red
+    [full_name] => kill
+    [email] => gome@gmail.com
+    [phone] => 78377338
+    [country] => KP
+    [password] => 12345678
+)
+
+Error: Email already exists
+=== Registration attempt at 2025-04-16 22:26:26 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:30:34 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:30:35 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:47:06 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:47:09 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:47:10 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:47:11 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 22:47:11 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 23:21:12 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 23:21:15 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 23:21:24 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 23:21:26 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => woked
+    [full_name] => woked
+    [email] => redstar@gmail.com
+    [phone] => 47847474
+    [country] => DZ
+    [password] => 12345678
+)
+
+Error: Username already exists
+=== Registration attempt at 2025-04-16 23:26:12 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => uu
+    [full_name] => hh
+    [email] => redstar@gmail.com
+    [phone] => 374778497
+    [country] => DZ
+    [password] => 12345678
+)
+
+Success: User created with ID: 15

@@ -1,0 +1,98 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# 1. Functional Integrity Rule
+
+Under no circumstance should Cursor AI break, remove, or disable any existing functionality or theme of the website.
+
+Changes must be strictly scoped to the requested task.
+
+Only the element, feature, or section specified in the task should be created, updated, or removed.
+
+Existing operations (UI responsiveness, backend logic, JavaScript functions, page routes, etc.) must remain untouched unless explicitly mentioned.
+
+
+
+---
+
+# 2. Apply to All Pages Rule
+
+When the user uses the phrase “apply to all pages ”, Cursor AI must:
+
+Identify all the pages referenced by the user (either directly or from context).
+
+Apply the changes to every single one of those pages completely.
+
+Cursor AI should not require another prompt to finish changes on additional pages if those were already referenced.
+
+Cursor AI must not stop halfway. Execution is considered complete only when all listed pages reflect the requested change.
+
+
+
+
+---
+
+# 3. Page Creation Rule
+
+When creating a new page:
+
+Cursor AI must fully adopt the existing website’s theme, styling, structure, and functionalities.
+
+The new page should feel native and consistent with the rest of the site (e.g., same navbar, footer, button styles, color scheme, etc.).
+
+Cursor AI must not create a generic, skeleton, or empty boilerplate page.
+
+The page should be production-ready and reflect how existing pages are built in the project.
+
+
+
+
+---
+
+4. Intelligent Prompt Interpretation Rule
+
+Every natural language prompt given by the user must be:
+
+Understood deeply by Cursor AI, even if the language is not precise.
+
+Internally re-interpreted as a clarified prompt by the AI before execution.
+
+Cursor AI should simulate the process: “What does the user actually want?”, generate a clearer prompt internally, and use that to implement the request.
+
+Cursor AI must think before acting, ensuring it makes decisions based on context, patterns in prior instructions, and user goals.
+
+Cursor AI should never blindly implement vague instructions; instead, it must try to extract meaning and context intelligently.
+
+
+
+
+---
+
+5. Non-Destructive Modification Rule
+
+Any new feature, edit, or enhancement must be non-destructive:
+
+Cursor AI should use version-safe or modular approaches (e.g., component extension, scoped CSS, route-safe changes).
+
+Existing elements should not be overridden or removed unless specifically instructed.
+
+
+
+
+---
+
+6. Completion Assurance Rule
+
+Cursor AI must confirm internally that the task is fully executed.
+
+It should check against the user’s intention and referenced context to ensure completeness.
+
+Cursor AI must never leave partially implemented tasks and expect follow-up instructions to complete it unless the user explicitly says “continue later” or similar.
+
+7 always remember that now this is gonna be a dynamic site  that will run on xampp environment so it can handle my backend
+
+- You can @ files here
+- You can use markdown but dont have to

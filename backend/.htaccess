@@ -1,0 +1,38 @@
+# Enable CORS for all API requests
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+
+# Handle OPTIONS preflight requests
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
+
+# Ensure PHP files are processed correctly
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+
+# Enable more detailed error reporting for PHP
+php_flag display_errors on
+php_value error_reporting E_ALL
+
+# Prevent direct access to .env file
+<Files .env>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Allow access to test_db_connection.php for debugging
+<Files test_db_connection.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Protect directory listings
+Options -Indexes
+
+# Enable RewriteEngine
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^api/(.*)$ api/index.php [QSA,L] 

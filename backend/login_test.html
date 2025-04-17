@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiTrader Login Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #response {
+            white-space: pre-wrap;
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 4px;
+            font-family: monospace;
+            max-height: 300px;
+            overflow: auto;
+        }
+        .spinner {
+            display: none;
+            margin: 10px auto;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .test-btn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .connection-status {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .status-indicator {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+            background-color: #ccc;
+        }
+        .status-success {
+            background-color: #4CAF50;
+        }
+        .status-error {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <h1>BiTrader Login Test Tool</h1>
+    <p>Use this tool to test your login API and diagnose issues.</p>
+    
+    <div class="container">
+        <div class="card">
+            <h2>Server Connection Status</h2>
+            <div class="connection-status">
+                <span>API Connection: <span id="api-status-indicator" class="status-indicator"></span><span id="api-status-text">Checking...</span></span>
+                <button onclick="testApiConnection()" class="test-btn">Test Connection</button>
+            </div>
+            <div class="connection-status">
+                <span>Database Connection: <span id="db-status-indicator" class="status-indicator"></span><span id="db-status-text">Unknown</span></span>
+                <button onclick="testDatabaseConnection()" class="test-btn">Test Database</button>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h2>Login Test</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username or Email:</label>
+                    <input type="text" id="username" required value="admin">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required value="admin123">
+                </div>
+                <button type="submit">Test Login</button>
+            </form>
+            <div id="spinner" class="spinner"></div>
+            <h3>Response:</h3>
+            <div id="response"></div>
+        </div>
+    </div>
+
+    <script>
+        // Constants
+        const API_BASE_URL = 'http://localhost/PROJECT-BITRADER/backend';
+        const LOGIN_API = `${API_BASE_URL}/direct-login.php`;
+        const CONNECTION_TEST_API = `${API_BASE_URL}/connection_test.php`;
+        
+        // DOM Elements
+        const responseElement = document.getElementById('response');
+        const spinner = document.getElementById('spinner');
+        const apiStatusIndicator = document.getElementById('api-status-indicator');
+        const apiStatusText = document.getElementById('api-status-text');
+        const dbStatusIndicator = document.getElementById('db-status-indicator');
+        const dbStatusText = document.getElementById('db-status-text');
+        
+        // Init
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('loginForm').addEventListener('submit', handleLoginTest);
+            testApiConnection();
+        });
+        
+        // Test API Connection
+        function testApiConnection() {
+            apiStatusText.textContent = 'Checking...';
+            apiStatusIndicator.className = 'status-indicator';
+            
+            fetch(CONNECTION_TEST_API, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                apiStatusIndicator.classList.add('status-success');
+                apiStatusText.textContent = 'Connected';
+                
+                // Update database status if available
+                if (data.data && data.data.database_connection) {
+                    const dbStatus = data.data.database_connection.status;
+                    if (dbStatus === 'Success') {
+                        dbStatusIndicator.classList.add('status-success');
+                        dbStatusText.textContent = 'Connected';
+                    } else {
+                        dbStatusIndicator.classList.add('status-error');
+                        dbStatusText.textContent = 'Failed: ' + data.data.database_connection.error;
+                    }
+                }
+                
+                // Display full response
+                responseElement.textContent = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                apiStatusIndicator.classList.add('status-error');
+                apiStatusText.textContent = 'Failed: ' + error.message;
+                responseElement.textContent = 'Connection Error: ' + error.message;
+            });
+        }
+        
+        // Test Database Connection
+        function testDatabaseConnection() {
+            dbStatusText.textContent = 'Checking...';
+            dbStatusIndicator.className = 'status-indicator';
+            
+            fetch(CONNECTION_TEST_API, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.data && data.data.database_connection) {
+                    const dbStatus = data.data.database_connection.status;
+                    if (dbStatus === 'Success') {
+                        dbStatusIndicator.classList.add('status-success');
+                        dbStatusText.textContent = 'Connected';
+                    } else {
+                        dbStatusIndicator.classList.add('status-error');
+                        dbStatusText.textContent = 'Failed: ' + data.data.database_connection.error;
+                    }
+                } else {
+                    dbStatusIndicator.classList.add('status-error');
+                    dbStatusText.textContent = 'Unknown status';
+                }
+                
+                responseElement.textContent = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                dbStatusIndicator.classList.add('status-error');
+                dbStatusText.textContent = 'Failed: ' + error.message;
+                responseElement.textContent = 'Connection Error: ' + error.message;
+            });
+        }
+        
+        // Handle Login Test
+        function handleLoginTest(event) {
+            event.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            
+            // Show spinner
+            spinner.style.display = 'block';
+            responseElement.textContent = 'Sending request...';
+            
+            // Send login request
+            fetch(LOGIN_API, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    username: username,
+                    password: password
+                })
+            })
+            .then(response => {
+                // Add response status info
+                const statusInfo = `Response Status: ${response.status} ${response.statusText}\n\n`;
+                
+                // Get response headers
+                let headersText = 'Response Headers:\n';
+                response.headers.forEach((value, name) => {
+                    headersText += `${name}: ${value}\n`;
+                });
+                headersText += '\n';
+                
+                // Try to get response as text first
+                return response.text().then(text => {
+                    let responseText = statusInfo + headersText;
+                    
+                    try {
+                        // Try to parse as JSON
+                        const data = JSON.parse(text);
+                        responseText += 'Parsed JSON Response:\n' + JSON.stringify(data, null, 2);
+                        return responseText;
+                    } catch (e) {
+                        // If not JSON, show as text
+                        responseText += 'Raw Response:\n' + text;
+                        return responseText;
+                    }
+                });
+            })
+            .then(finalResponse => {
+                responseElement.textContent = finalResponse;
+            })
+            .catch(error => {
+                responseElement.textContent = 'Error: ' + error.message;
+            })
+            .finally(() => {
+                spinner.style.display = 'none';
+            });
+        }
+    </script>
+</body>
+</html> 

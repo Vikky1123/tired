@@ -1,0 +1,1070 @@
+[2025-04-16 15:18:51] getByUsername called - admin
+[2025-04-16 15:18:51] getByUsername result - User found
+[2025-04-16 15:18:51] authenticate called - {"username":"admin","password_length":8}
+[2025-04-16 15:18:51] Input is an email - 
+[2025-04-16 15:18:51] getByUsername called - admin
+[2025-04-16 15:18:51] getByUsername result - User found
+[2025-04-16 15:18:51] User found, checking password
+[2025-04-16 15:18:51] Password verification result - Password does not match
+[2025-04-16 15:20:44] authenticate called - {"username":"admin","password_length":8}
+[2025-04-16 15:20:44] Input is an email - 
+[2025-04-16 15:20:44] getByUsername called - admin
+[2025-04-16 15:20:44] getByUsername result - User found
+[2025-04-16 15:20:44] User found, checking password
+[2025-04-16 15:20:45] Password verification result - Password does not match
+[2025-04-16 15:21:47] authenticate called - {"username":"admin","password_length":8}
+[2025-04-16 15:21:47] Input is an email - 
+[2025-04-16 15:21:47] getByUsername called - admin
+[2025-04-16 15:21:47] getByUsername result - User found
+[2025-04-16 15:21:47] User found, checking password
+[2025-04-16 15:21:47] Password verification result - Password does not match
+[2025-04-16 15:26:09] getByUsername called - admin
+[2025-04-16 15:26:09] getByUsername result - User found
+[2025-04-16 15:26:09] authenticate called - {"username":"admin","password_length":8}
+[2025-04-16 15:26:09] Input is an email - 
+[2025-04-16 15:26:09] getByUsername called - admin
+[2025-04-16 15:26:09] getByUsername result - User found
+[2025-04-16 15:26:09] User found, checking password
+[2025-04-16 15:26:09] Password verification result - Password does not match
+[2025-04-16 16:10:01] getByUsername called - admin
+[2025-04-16 16:10:01] getByUsername result - User found
+[2025-04-16 16:10:07] getByUsername called - test_user_1869
+[2025-04-16 16:10:07] getByUsername result - User not found
+[2025-04-16 16:10:07] getByEmail called - test_user_1869@example.com
+[2025-04-16 16:10:07] getByEmail result - User not found
+[2025-04-16 16:10:07] create called - {"username":"test_user_1869","email":"test_user_1869@example.com","password":"password123","fullName":"Test User","phone":"1234567890","country":"Test Country","role":"user"}
+[2025-04-16 16:10:07] User created with ID - 7
+[2025-04-16 16:10:07] getById called - 7
+[2025-04-16 16:10:07] getById result - User found
+[2025-04-16 16:10:07] generateToken called - {"user_id":7}
+[2025-04-16 16:10:07] Token generated successfully
+[2025-04-16 16:18:53] getByUsername called - admin
+[2025-04-16 16:18:53] getByUsername result - User found
+[2025-04-16 16:18:55] getByUsername called - test_user_2656
+[2025-04-16 16:18:55] getByUsername result - User not found
+[2025-04-16 16:18:55] getByEmail called - test_user_2656@example.com
+[2025-04-16 16:18:55] getByEmail result - User not found
+[2025-04-16 16:18:55] create called - {"username":"test_user_2656","email":"test_user_2656@example.com","password":"password123","fullName":"Test User","phone":"1234567890","country":"Test Country","role":"user"}
+[2025-04-16 16:18:56] User created with ID - 8
+[2025-04-16 16:18:56] getById called - 8
+[2025-04-16 16:18:56] getById result - User found
+[2025-04-16 16:18:56] generateToken called - {"user_id":8}
+[2025-04-16 16:18:56] Token generated successfully
+[2025-04-16 16:24:46] getByUsername called - wait
+[2025-04-16 16:24:46] getByUsername result - User not found
+[2025-04-16 16:24:46] getByEmail called - victorjoelojas@gmail.com
+[2025-04-16 16:24:46] getByEmail result - User not found
+[2025-04-16 16:24:46] create called - {"username":"wait","email":"victorjoelojas@gmail.com","password":"12345678","fullName":"vikky joel","phone":"2345676545676","country":"NG","role":"user"}
+[2025-04-16 16:24:46] User created with ID - 9
+[2025-04-16 16:24:46] getById called - 9
+[2025-04-16 16:24:47] getById result - User found
+[2025-04-16 16:24:47] generateToken called - {"user_id":9}
+[2025-04-16 16:24:47] Token generated successfully
+[2025-04-16 16:25:41] getByUsername called - JUST
+[2025-04-16 16:25:41] getByUsername result - User not found
+[2025-04-16 16:25:41] getByEmail called - justme@gmail.com
+[2025-04-16 16:25:41] getByEmail result - User not found
+[2025-04-16 16:25:41] create called - {"username":"JUST","email":"justme@gmail.com","password":"12345678","fullName":"great","phone":"6484744787487","country":"BY","role":"user"}
+[2025-04-16 16:25:41] User created with ID - 10
+[2025-04-16 16:25:41] getById called - 10
+[2025-04-16 16:25:41] getById result - User found
+[2025-04-16 16:25:41] generateToken called - {"user_id":10}
+[2025-04-16 16:25:41] Token generated successfully
+[2025-04-16 16:26:00] getByEmail called - justme@gmail.com
+[2025-04-16 16:26:00] getByEmail result - User found
+[2025-04-16 16:26:11] getByEmail called - justme@gmail.com
+[2025-04-16 16:26:11] getByEmail result - User found
+[2025-04-16 16:27:49] getByUsername called - wow
+[2025-04-16 16:27:49] getByUsername result - User not found
+[2025-04-16 16:27:49] getByEmail called - prettygirl@gmail.com
+[2025-04-16 16:27:49] getByEmail result - User not found
+[2025-04-16 16:27:49] create called - {"username":"wow","email":"prettygirl@gmail.com","password":"12345678","fullName":"girl","phone":"12345678","country":"BB","role":"user"}
+[2025-04-16 16:27:49] User created with ID - 11
+[2025-04-16 16:27:49] getById called - 11
+[2025-04-16 16:27:49] getById result - User found
+[2025-04-16 16:27:49] generateToken called - {"user_id":11}
+[2025-04-16 16:27:49] Token generated successfully
+[2025-04-16 16:42:20] getByEmail called - prettygirl@gmail.com
+[2025-04-16 16:42:21] getByEmail result - User found
+[2025-04-16 16:48:32] getByUsername called - admin
+[2025-04-16 16:48:32] getByUsername result - User found
+[2025-04-16 16:49:02] getByUsername called - wow
+[2025-04-16 16:49:02] getByUsername result - User found
+[2025-04-16 16:49:05] getByUsername called - wow
+[2025-04-16 16:49:05] getByUsername result - User found
+[2025-04-16 16:49:08] getByUsername called - wait
+[2025-04-16 16:49:08] getByUsername result - User found
+[2025-04-16 16:49:09] getByUsername called - test_user_2656
+[2025-04-16 16:49:09] getByUsername result - User found
+[2025-04-16 16:49:11] getByUsername called - admin
+[2025-04-16 16:49:11] getByUsername result - User found
+[2025-04-16 16:52:06] getByEmail called - prettygirl@gmail.com
+[2025-04-16 16:52:06] getByEmail result - User found
+[2025-04-16 16:52:06] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 16:52:06] Password verification result - Match
+[2025-04-16 16:52:06] generateToken called - {"user_id":11}
+[2025-04-16 16:52:06] Token generated successfully
+[2025-04-16 16:52:18] getByEmail called - prettygirl@gmail.com
+[2025-04-16 16:52:18] getByEmail result - User found
+[2025-04-16 16:52:18] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 16:52:18] Password verification result - Match
+[2025-04-16 16:52:18] generateToken called - {"user_id":11}
+[2025-04-16 16:52:18] Token generated successfully
+[2025-04-16 16:52:29] getByUsername called - 12345678
+[2025-04-16 16:52:29] getByUsername result - User not found
+[2025-04-16 16:52:43] getByEmail called - prettygirl@gmail.com
+[2025-04-16 16:52:43] getByEmail result - User found
+[2025-04-16 16:52:43] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 16:52:43] Password verification result - Match
+[2025-04-16 16:52:43] generateToken called - {"user_id":11}
+[2025-04-16 16:52:43] Token generated successfully
+[2025-04-16 17:24:14] getByEmail called - prettygirl@gmail.com
+[2025-04-16 17:24:14] getByEmail result - User found
+[2025-04-16 17:24:14] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:24:14] getByEmail result - User found
+[2025-04-16 17:24:14] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:24:14] Password verification result - Match
+[2025-04-16 17:24:14] generateToken called - {"user_id":11}
+[2025-04-16 17:24:14] Token generated successfully
+[2025-04-16 17:24:14] Password verification result - Match
+[2025-04-16 17:24:14] generateToken called - {"user_id":11}
+[2025-04-16 17:24:14] Token generated successfully
+[2025-04-16 17:27:10] getByEmail called - prettygirl@gmail.com
+[2025-04-16 17:27:10] getByEmail result - User found
+[2025-04-16 17:27:10] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:27:10] getByEmail called - prettygirl@gmail.com
+[2025-04-16 17:27:10] getByEmail result - User found
+[2025-04-16 17:27:10] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:27:10] Password verification result - Match
+[2025-04-16 17:27:10] generateToken called - {"user_id":11}
+[2025-04-16 17:27:10] Token generated successfully
+[2025-04-16 17:27:10] Password verification result - Match
+[2025-04-16 17:27:10] generateToken called - {"user_id":11}
+[2025-04-16 17:27:10] Token generated successfully
+[2025-04-16 17:36:25] getByUsername called - admin
+[2025-04-16 17:36:25] getByUsername result - User found
+[2025-04-16 17:36:25] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:36:25] Password verification result - No match
+[2025-04-16 17:36:36] getByUsername called - admin
+[2025-04-16 17:36:36] getByUsername result - User found
+[2025-04-16 17:36:36] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:36:36] Password verification result - No match
+[2025-04-16 17:36:53] getByUsername called - admin
+[2025-04-16 17:36:53] getByUsername result - User found
+[2025-04-16 17:36:53] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:36:53] Password verification result - No match
+[2025-04-16 17:36:57] getByUsername called - admin
+[2025-04-16 17:36:57] getByUsername result - User found
+[2025-04-16 17:36:57] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:36:57] Password verification result - No match
+[2025-04-16 17:57:36] getByUsername called - admin
+[2025-04-16 17:57:36] getByUsername result - User found
+[2025-04-16 17:57:36] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:36] Password verification result - No match
+[2025-04-16 17:57:37] getByUsername called - admin
+[2025-04-16 17:57:37] getByUsername result - User found
+[2025-04-16 17:57:37] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:37] Password verification result - No match
+[2025-04-16 17:57:38] getByUsername called - admin
+[2025-04-16 17:57:38] getByUsername result - User found
+[2025-04-16 17:57:38] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:38] Password verification result - No match
+[2025-04-16 17:57:38] getByUsername called - admin
+[2025-04-16 17:57:38] getByUsername result - User found
+[2025-04-16 17:57:38] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:38] Password verification result - No match
+[2025-04-16 17:57:39] getByUsername called - admin
+[2025-04-16 17:57:39] getByUsername result - User found
+[2025-04-16 17:57:39] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:39] Password verification result - No match
+[2025-04-16 17:57:40] getByUsername called - admin
+[2025-04-16 17:57:40] getByUsername result - User found
+[2025-04-16 17:57:40] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:40] Password verification result - No match
+[2025-04-16 17:57:40] getByUsername called - admin
+[2025-04-16 17:57:40] getByUsername result - User found
+[2025-04-16 17:57:40] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:40] Password verification result - No match
+[2025-04-16 17:57:49] getByUsername called - admin
+[2025-04-16 17:57:49] getByUsername result - User found
+[2025-04-16 17:57:49] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:50] Password verification result - No match
+[2025-04-16 17:57:52] getByUsername called - admin
+[2025-04-16 17:57:52] getByUsername result - User found
+[2025-04-16 17:57:52] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:52] Password verification result - No match
+[2025-04-16 17:57:53] getByUsername called - admin
+[2025-04-16 17:57:53] getByUsername result - User found
+[2025-04-16 17:57:53] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:53] Password verification result - No match
+[2025-04-16 17:57:54] getByUsername called - admin
+[2025-04-16 17:57:54] getByUsername result - User found
+[2025-04-16 17:57:54] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:54] Password verification result - No match
+[2025-04-16 17:57:55] getByUsername called - admin
+[2025-04-16 17:57:55] getByUsername result - User found
+[2025-04-16 17:57:55] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:55] Password verification result - No match
+[2025-04-16 17:57:56] getByUsername called - admin
+[2025-04-16 17:57:56] getByUsername result - User found
+[2025-04-16 17:57:56] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:56] Password verification result - No match
+[2025-04-16 17:57:56] getByUsername called - admin
+[2025-04-16 17:57:56] getByUsername result - User found
+[2025-04-16 17:57:56] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:57:56] Password verification result - No match
+[2025-04-16 17:58:02] getByUsername called - admin
+[2025-04-16 17:58:02] getByUsername result - User found
+[2025-04-16 17:58:02] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:58:03] Password verification result - No match
+[2025-04-16 17:58:03] getByUsername called - admin
+[2025-04-16 17:58:03] getByUsername result - User found
+[2025-04-16 17:58:03] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 17:58:03] Password verification result - No match
+[2025-04-16 17:58:13] getByUsername called - admin
+[2025-04-16 17:58:13] getByUsername result - User found
+[2025-04-16 17:58:13] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 17:58:14] Password verification result - Match
+[2025-04-16 17:58:14] generateToken called - {"user_id":1}
+[2025-04-16 17:58:14] Token generated successfully
+[2025-04-16 17:58:16] getByUsername called - admin
+[2025-04-16 17:58:16] getByUsername result - User found
+[2025-04-16 17:58:16] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 17:58:16] Password verification result - Match
+[2025-04-16 17:58:16] generateToken called - {"user_id":1}
+[2025-04-16 17:58:16] Token generated successfully
+[2025-04-16 17:58:17] getByUsername called - admin
+[2025-04-16 17:58:17] getByUsername result - User found
+[2025-04-16 17:58:17] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 17:58:18] Password verification result - Match
+[2025-04-16 17:58:18] generateToken called - {"user_id":1}
+[2025-04-16 17:58:18] Token generated successfully
+[2025-04-16 17:58:22] getByUsername called - admin
+[2025-04-16 17:58:22] getByUsername result - User found
+[2025-04-16 17:58:22] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 17:58:22] Password verification result - No match
+[2025-04-16 17:58:30] getByUsername called - admin
+[2025-04-16 17:58:30] getByUsername result - User found
+[2025-04-16 17:58:30] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 17:58:31] Password verification result - Match
+[2025-04-16 17:58:31] generateToken called - {"user_id":1}
+[2025-04-16 17:58:31] Token generated successfully
+[2025-04-16 17:58:32] getByUsername called - admin
+[2025-04-16 17:58:32] getByUsername result - User found
+[2025-04-16 17:58:32] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 17:58:32] Password verification result - Match
+[2025-04-16 17:58:32] generateToken called - {"user_id":1}
+[2025-04-16 17:58:32] Token generated successfully
+[2025-04-16 17:59:03] getByUsername called - admin
+[2025-04-16 17:59:03] getByUsername result - User found
+[2025-04-16 17:59:03] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 17:59:03] getByUsername called - admin
+[2025-04-16 17:59:03] getByUsername result - User found
+[2025-04-16 17:59:03] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 17:59:03] Password verification result - Match
+[2025-04-16 17:59:03] generateToken called - {"user_id":1}
+[2025-04-16 17:59:03] Token generated successfully
+[2025-04-16 17:59:03] Password verification result - Match
+[2025-04-16 17:59:03] generateToken called - {"user_id":1}
+[2025-04-16 17:59:03] Token generated successfully
+[2025-04-16 18:02:40] getByUsername called - 5766686868
+[2025-04-16 18:02:40] getByUsername result - User not found
+[2025-04-16 18:02:40] getByUsername called - 5766686868
+[2025-04-16 18:02:40] getByUsername result - User not found
+[2025-04-16 18:03:09] getByUsername called - fcghvghv
+[2025-04-16 18:03:09] getByUsername result - User not found
+[2025-04-16 18:03:09] getByUsername called - fcghvghv
+[2025-04-16 18:03:09] getByUsername result - User not found
+[2025-04-16 18:08:48] getByUsername called - admin
+[2025-04-16 18:08:48] getByUsername result - User found
+[2025-04-16 18:08:48] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:08:48] Password verification result - No match
+[2025-04-16 18:09:30] getByUsername called - admin
+[2025-04-16 18:09:30] getByUsername result - User found
+[2025-04-16 18:09:30] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:09:31] Password verification result - No match
+[2025-04-16 18:09:37] getByUsername called - admin
+[2025-04-16 18:09:37] getByUsername result - User found
+[2025-04-16 18:09:37] verifyPassword called - Password length: 7, Hash length: 60
+[2025-04-16 18:09:37] Password verification result - No match
+[2025-04-16 18:09:46] getByUsername called - admin
+[2025-04-16 18:09:46] getByUsername result - User found
+[2025-04-16 18:09:46] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 18:09:46] Password verification result - Match
+[2025-04-16 18:09:46] generateToken called - {"user_id":1}
+[2025-04-16 18:09:46] Token generated successfully
+[2025-04-16 18:10:27] getByEmail called - prettygirl@gmail.com
+[2025-04-16 18:10:27] getByEmail result - User found
+[2025-04-16 18:10:27] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:10:27] Password verification result - Match
+[2025-04-16 18:10:27] generateToken called - {"user_id":11}
+[2025-04-16 18:10:27] Token generated successfully
+[2025-04-16 18:11:20] getByUsername called - admin
+[2025-04-16 18:11:20] getByUsername result - User found
+[2025-04-16 18:11:20] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:11:20] Password verification result - No match
+[2025-04-16 18:13:24] getByEmail called - prettygirl@gmail.com
+[2025-04-16 18:13:24] getByEmail called - prettygirl@gmail.com
+[2025-04-16 18:13:24] getByEmail result - User found
+[2025-04-16 18:13:24] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:13:24] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:13:24] Password verification result - Match
+[2025-04-16 18:13:24] Password verification result - Match
+[2025-04-16 18:13:24] generateToken called - {"user_id":11}
+[2025-04-16 18:13:24] generateToken called - {"user_id":11}
+[2025-04-16 18:13:24] Token generated successfully
+[2025-04-16 18:13:24] Token generated successfully
+[2025-04-16 18:14:13] getByEmail called - prettygirl@gmail.com
+[2025-04-16 18:14:13] getByEmail result - User found
+[2025-04-16 18:14:13] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:14:13] getByEmail called - prettygirl@gmail.com
+[2025-04-16 18:14:13] getByEmail result - User found
+[2025-04-16 18:14:13] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:14:14] Password verification result - Match
+[2025-04-16 18:14:14] generateToken called - {"user_id":11}
+[2025-04-16 18:14:14] Token generated successfully
+[2025-04-16 18:14:14] Password verification result - Match
+[2025-04-16 18:14:14] generateToken called - {"user_id":11}
+[2025-04-16 18:14:14] Token generated successfully
+[2025-04-16 18:14:47] getByUsername called - admin
+[2025-04-16 18:14:47] getByUsername result - User found
+[2025-04-16 18:14:47] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 18:14:47] getByUsername called - admin
+[2025-04-16 18:14:47] getByUsername result - User found
+[2025-04-16 18:14:47] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 18:14:47] Password verification result - Match
+[2025-04-16 18:14:47] generateToken called - {"user_id":1}
+[2025-04-16 18:14:47] Token generated successfully
+[2025-04-16 18:14:47] Password verification result - Match
+[2025-04-16 18:14:47] generateToken called - {"user_id":1}
+[2025-04-16 18:14:47] Token generated successfully
+[2025-04-16 18:16:30] getByUsername called - ghjj
+[2025-04-16 18:16:30] getByUsername result - User not found
+[2025-04-16 18:16:30] getByEmail called - gome@gmail.com
+[2025-04-16 18:16:30] getByEmail result - User not found
+[2025-04-16 18:16:30] create called - {"username":"ghjj","email":"gome@gmail.com","password":"12345678","fullName":"hsh","phone":"78377338","country":"BY","role":"user"}
+[2025-04-16 18:16:30] User created with ID - 12
+[2025-04-16 18:16:30] getById called - 12
+[2025-04-16 18:16:30] getById result - User found
+[2025-04-16 18:16:30] generateToken called - {"user_id":12}
+[2025-04-16 18:16:30] Token generated successfully
+[2025-04-16 18:16:39] getByUsername called - ghjj
+[2025-04-16 18:16:39] getByUsername result - User found
+[2025-04-16 18:16:39] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:16:39] getByUsername called - ghjj
+[2025-04-16 18:16:39] getByUsername result - User found
+[2025-04-16 18:16:39] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 18:16:40] Password verification result - Match
+[2025-04-16 18:16:40] generateToken called - {"user_id":12}
+[2025-04-16 18:16:40] Token generated successfully
+[2025-04-16 18:16:40] Password verification result - Match
+[2025-04-16 18:16:40] generateToken called - {"user_id":12}
+[2025-04-16 18:16:40] Token generated successfully
+[2025-04-16 20:27:09] getByUsername called - ghjj
+[2025-04-16 20:27:09] getByUsername result - User found
+[2025-04-16 20:27:09] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 20:27:09] getByUsername called - ghjj
+[2025-04-16 20:27:09] getByUsername result - User found
+[2025-04-16 20:27:09] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 20:27:09] Password verification result - Match
+[2025-04-16 20:27:09] generateToken called - {"user_id":12}
+[2025-04-16 20:27:09] Token generated successfully
+[2025-04-16 20:27:09] Password verification result - Match
+[2025-04-16 20:27:09] generateToken called - {"user_id":12}
+[2025-04-16 20:27:09] Token generated successfully
+[2025-04-16 20:30:40] getByUsername called - bbb
+[2025-04-16 20:30:40] getByUsername called - bbb
+[2025-04-16 20:30:40] getByUsername result - User not found
+[2025-04-16 20:30:40] getByUsername result - User not found
+[2025-04-16 20:30:53] getByUsername called - h b
+[2025-04-16 20:30:53] getByUsername result - User not found
+[2025-04-16 20:30:53] getByUsername called - h b
+[2025-04-16 20:30:53] getByUsername result - User not found
+[2025-04-16 20:31:50] getByUsername called - b jb
+[2025-04-16 20:31:50] getByUsername result - User not found
+[2025-04-16 20:31:50] getByEmail called - bbk75058@gmail.com
+[2025-04-16 20:31:50] getByEmail result - User not found
+[2025-04-16 20:31:50] create called - {"username":"b jb","email":"bbk75058@gmail.com","password":"12345","fullName":"vbnb","phone":"78099099","country":"NG","role":"user"}
+[2025-04-16 20:31:50] User created with ID - 13
+[2025-04-16 20:31:50] getById called - 13
+[2025-04-16 20:31:50] getById result - User found
+[2025-04-16 20:31:50] generateToken called - {"user_id":13}
+[2025-04-16 20:31:50] Token generated successfully
+[2025-04-16 21:06:56] getByUsername called - admin
+[2025-04-16 21:06:56] getByUsername result - User found
+[2025-04-16 21:06:56] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:06:56] Password verification result - No match
+[2025-04-16 21:06:57] getByUsername called - admin
+[2025-04-16 21:06:57] getByUsername result - User found
+[2025-04-16 21:06:57] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:06:57] Password verification result - No match
+[2025-04-16 21:07:04] getByUsername called - admin
+[2025-04-16 21:07:04] getByUsername result - User found
+[2025-04-16 21:07:04] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:07:05] Password verification result - Match
+[2025-04-16 21:07:05] generateToken called - {"user_id":1}
+[2025-04-16 21:07:05] Token generated successfully
+[2025-04-16 21:11:11] getByUsername called - admin
+[2025-04-16 21:11:11] getByUsername result - User found
+[2025-04-16 21:11:11] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:11:11] Password verification result - No match
+[2025-04-16 21:11:12] getByUsername called - admin
+[2025-04-16 21:11:12] getByUsername result - User found
+[2025-04-16 21:11:12] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:11:12] Password verification result - No match
+[2025-04-16 21:11:23] getByUsername called - 889
+[2025-04-16 21:11:23] getByUsername result - User not found
+[2025-04-16 21:11:24] getByUsername called - 889
+[2025-04-16 21:11:24] getByUsername result - User not found
+[2025-04-16 21:15:43] getByUsername called - admin
+[2025-04-16 21:15:43] getByUsername result - User found
+[2025-04-16 21:15:43] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:15:43] getByUsername called - admin
+[2025-04-16 21:15:43] getByUsername result - User found
+[2025-04-16 21:15:43] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:15:44] Password verification result - Match
+[2025-04-16 21:15:44] generateToken called - {"user_id":1}
+[2025-04-16 21:15:44] Token generated successfully
+[2025-04-16 21:15:44] Password verification result - Match
+[2025-04-16 21:15:44] generateToken called - {"user_id":1}
+[2025-04-16 21:15:44] Token generated successfully
+[2025-04-16 21:15:47] getByUsername called - ghjj
+[2025-04-16 21:15:47] getByUsername result - User found
+[2025-04-16 21:15:47] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:15:47] getByUsername called - ghjj
+[2025-04-16 21:15:47] getByUsername result - User found
+[2025-04-16 21:15:47] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:15:47] Password verification result - Match
+[2025-04-16 21:15:47] generateToken called - {"user_id":12}
+[2025-04-16 21:15:47] Token generated successfully
+[2025-04-16 21:15:47] Password verification result - Match
+[2025-04-16 21:15:47] generateToken called - {"user_id":12}
+[2025-04-16 21:15:47] Token generated successfully
+[2025-04-16 21:15:51] getByUsername called - ghjj
+[2025-04-16 21:15:51] getByUsername result - User found
+[2025-04-16 21:15:51] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:15:51] getByUsername called - ghjj
+[2025-04-16 21:15:51] getByUsername result - User found
+[2025-04-16 21:15:51] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:15:51] Password verification result - Match
+[2025-04-16 21:15:51] generateToken called - {"user_id":12}
+[2025-04-16 21:15:51] Token generated successfully
+[2025-04-16 21:15:51] Password verification result - Match
+[2025-04-16 21:15:51] generateToken called - {"user_id":12}
+[2025-04-16 21:15:51] Token generated successfully
+[2025-04-16 21:16:42] getByUsername called - admin
+[2025-04-16 21:16:42] getByUsername result - User found
+[2025-04-16 21:16:42] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:16:42] getByUsername called - admin
+[2025-04-16 21:16:42] getByUsername result - User found
+[2025-04-16 21:16:42] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:16:42] Password verification result - No match
+[2025-04-16 21:16:43] Password verification result - No match
+[2025-04-16 21:16:46] getByUsername called - ghjj
+[2025-04-16 21:16:46] getByUsername result - User found
+[2025-04-16 21:16:46] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:16:46] getByUsername called - ghjj
+[2025-04-16 21:16:46] getByUsername result - User found
+[2025-04-16 21:16:46] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:16:47] Password verification result - Match
+[2025-04-16 21:16:47] generateToken called - {"user_id":12}
+[2025-04-16 21:16:47] Token generated successfully
+[2025-04-16 21:16:47] Password verification result - Match
+[2025-04-16 21:16:47] generateToken called - {"user_id":12}
+[2025-04-16 21:16:47] Token generated successfully
+[2025-04-16 21:16:50] getByUsername called - ghjj
+[2025-04-16 21:16:50] getByUsername result - User found
+[2025-04-16 21:16:50] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:16:50] getByUsername called - ghjj
+[2025-04-16 21:16:50] getByUsername result - User found
+[2025-04-16 21:16:50] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:16:50] Password verification result - Match
+[2025-04-16 21:16:50] generateToken called - {"user_id":12}
+[2025-04-16 21:16:50] Password verification result - Match
+[2025-04-16 21:16:50] generateToken called - {"user_id":12}
+[2025-04-16 21:16:50] Token generated successfully
+[2025-04-16 21:16:50] Token generated successfully
+[2025-04-16 21:17:07] getByUsername called - admin
+[2025-04-16 21:17:07] getByUsername result - User found
+[2025-04-16 21:17:07] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:17:07] getByUsername called - admin
+[2025-04-16 21:17:07] getByUsername result - User found
+[2025-04-16 21:17:07] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:17:07] Password verification result - Match
+[2025-04-16 21:17:07] generateToken called - {"user_id":1}
+[2025-04-16 21:17:07] Token generated successfully
+[2025-04-16 21:17:07] Password verification result - Match
+[2025-04-16 21:17:07] generateToken called - {"user_id":1}
+[2025-04-16 21:17:07] Token generated successfully
+[2025-04-16 21:17:21] getByUsername called - ghjjwe
+[2025-04-16 21:17:21] getByUsername called - ghjjwe
+[2025-04-16 21:17:21] getByUsername result - User not found
+[2025-04-16 21:17:21] getByUsername result - User not found
+[2025-04-16 21:17:23] getByUsername called - ghjj
+[2025-04-16 21:17:23] getByUsername result - User found
+[2025-04-16 21:17:23] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:17:23] getByUsername called - ghjj
+[2025-04-16 21:17:23] getByUsername result - User found
+[2025-04-16 21:17:23] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:17:24] Password verification result - Match
+[2025-04-16 21:17:24] generateToken called - {"user_id":12}
+[2025-04-16 21:17:24] Token generated successfully
+[2025-04-16 21:17:24] Password verification result - Match
+[2025-04-16 21:17:24] generateToken called - {"user_id":12}
+[2025-04-16 21:17:24] Token generated successfully
+[2025-04-16 21:17:26] getByUsername called - ghjj
+[2025-04-16 21:17:26] getByUsername result - User found
+[2025-04-16 21:17:26] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:17:26] getByUsername called - ghjj
+[2025-04-16 21:17:26] getByUsername result - User found
+[2025-04-16 21:17:26] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:17:27] Password verification result - Match
+[2025-04-16 21:17:27] generateToken called - {"user_id":12}
+[2025-04-16 21:17:27] Token generated successfully
+[2025-04-16 21:17:27] Password verification result - Match
+[2025-04-16 21:17:27] generateToken called - {"user_id":12}
+[2025-04-16 21:17:27] Token generated successfully
+[2025-04-16 21:17:32] getByUsername called - 677
+[2025-04-16 21:17:32] getByUsername called - 677
+[2025-04-16 21:17:32] getByUsername result - User not found
+[2025-04-16 21:17:32] getByUsername result - User not found
+[2025-04-16 21:17:54] getByUsername called - admin
+[2025-04-16 21:17:54] getByUsername result - User found
+[2025-04-16 21:17:54] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:17:54] getByUsername called - admin
+[2025-04-16 21:17:54] getByUsername result - User found
+[2025-04-16 21:17:54] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:17:54] Password verification result - Match
+[2025-04-16 21:17:54] generateToken called - {"user_id":1}
+[2025-04-16 21:17:54] Token generated successfully
+[2025-04-16 21:17:54] Password verification result - Match
+[2025-04-16 21:17:54] generateToken called - {"user_id":1}
+[2025-04-16 21:17:54] Token generated successfully
+[2025-04-16 21:18:33] getByUsername called - admin
+[2025-04-16 21:18:33] getByUsername result - User found
+[2025-04-16 21:18:33] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:18:33] getByUsername called - admin
+[2025-04-16 21:18:33] getByUsername result - User found
+[2025-04-16 21:18:33] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:18:33] Password verification result - Match
+[2025-04-16 21:18:33] generateToken called - {"user_id":1}
+[2025-04-16 21:18:33] Token generated successfully
+[2025-04-16 21:18:33] Password verification result - Match
+[2025-04-16 21:18:33] generateToken called - {"user_id":1}
+[2025-04-16 21:18:33] Token generated successfully
+[2025-04-16 21:18:50] getByUsername called - admin
+[2025-04-16 21:18:50] getByUsername result - User found
+[2025-04-16 21:18:50] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:18:50] getByUsername called - admin
+[2025-04-16 21:18:50] getByUsername result - User found
+[2025-04-16 21:18:50] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:18:50] Password verification result - Match
+[2025-04-16 21:18:50] generateToken called - {"user_id":1}
+[2025-04-16 21:18:50] Token generated successfully
+[2025-04-16 21:18:50] Password verification result - Match
+[2025-04-16 21:18:50] generateToken called - {"user_id":1}
+[2025-04-16 21:18:50] Token generated successfully
+[2025-04-16 21:20:15] getByUsername called - ghjj
+[2025-04-16 21:20:15] getByUsername result - User found
+[2025-04-16 21:20:15] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:20:15] getByUsername called - ghjj
+[2025-04-16 21:20:15] getByUsername result - User found
+[2025-04-16 21:20:15] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:20:17] Password verification result - Match
+[2025-04-16 21:20:17] generateToken called - {"user_id":12}
+[2025-04-16 21:20:17] Token generated successfully
+[2025-04-16 21:20:17] Password verification result - Match
+[2025-04-16 21:20:17] generateToken called - {"user_id":12}
+[2025-04-16 21:20:17] Token generated successfully
+[2025-04-16 21:22:32] getByUsername called - admin
+[2025-04-16 21:22:32] getByUsername result - User found
+[2025-04-16 21:22:32] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:22:32] getByUsername called - admin
+[2025-04-16 21:22:32] getByUsername result - User found
+[2025-04-16 21:22:32] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:22:33] Password verification result - No match
+[2025-04-16 21:22:33] Password verification result - No match
+[2025-04-16 21:24:02] getByUsername called - admin
+[2025-04-16 21:24:02] getByUsername result - User found
+[2025-04-16 21:24:02] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:24:03] Password verification result - No match
+[2025-04-16 21:24:30] getByEmail called - prettygirl@gmail.com
+[2025-04-16 21:24:30] getByEmail result - User found
+[2025-04-16 21:24:30] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:24:30] Password verification result - Match
+[2025-04-16 21:24:30] generateToken called - {"user_id":11}
+[2025-04-16 21:24:30] Token generated successfully
+[2025-04-16 21:25:39] getByEmail called - prettygirl@gmail.com
+[2025-04-16 21:25:39] getByEmail result - User found
+[2025-04-16 21:25:39] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:25:39] getByEmail called - prettygirl@gmail.com
+[2025-04-16 21:25:39] getByEmail result - User found
+[2025-04-16 21:25:39] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:25:40] Password verification result - Match
+[2025-04-16 21:25:40] generateToken called - {"user_id":11}
+[2025-04-16 21:25:40] Token generated successfully
+[2025-04-16 21:25:40] Password verification result - Match
+[2025-04-16 21:25:40] generateToken called - {"user_id":11}
+[2025-04-16 21:25:40] Token generated successfully
+[2025-04-16 21:30:31] getByUsername called - admin
+[2025-04-16 21:30:32] getByUsername result - User found
+[2025-04-16 21:30:32] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:30:32] getByUsername called - admin
+[2025-04-16 21:30:32] getByUsername result - User found
+[2025-04-16 21:30:32] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:30:32] Password verification result - No match
+[2025-04-16 21:30:32] Password verification result - No match
+[2025-04-16 21:31:09] getByUsername called - ghjj
+[2025-04-16 21:31:09] getByUsername result - User found
+[2025-04-16 21:31:09] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:31:09] getByUsername called - ghjj
+[2025-04-16 21:31:09] getByUsername result - User found
+[2025-04-16 21:31:09] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:31:09] Password verification result - Match
+[2025-04-16 21:31:09] generateToken called - {"user_id":12}
+[2025-04-16 21:31:09] Token generated successfully
+[2025-04-16 21:31:09] Password verification result - Match
+[2025-04-16 21:31:09] generateToken called - {"user_id":12}
+[2025-04-16 21:31:09] Token generated successfully
+[2025-04-16 21:31:49] getByUsername called - ghjj
+[2025-04-16 21:31:49] getByUsername result - User found
+[2025-04-16 21:31:49] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:31:49] getByUsername called - ghjj
+[2025-04-16 21:31:49] getByUsername result - User found
+[2025-04-16 21:31:49] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:31:50] Password verification result - Match
+[2025-04-16 21:31:50] generateToken called - {"user_id":12}
+[2025-04-16 21:31:50] Token generated successfully
+[2025-04-16 21:31:50] Password verification result - Match
+[2025-04-16 21:31:50] generateToken called - {"user_id":12}
+[2025-04-16 21:31:50] Token generated successfully
+[2025-04-16 21:32:37] getByUsername called - ghjj
+[2025-04-16 21:32:37] getByUsername result - User found
+[2025-04-16 21:32:37] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:32:37] getByUsername called - ghjj
+[2025-04-16 21:32:37] getByUsername result - User found
+[2025-04-16 21:32:37] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:32:37] Password verification result - Match
+[2025-04-16 21:32:37] generateToken called - {"user_id":12}
+[2025-04-16 21:32:37] Token generated successfully
+[2025-04-16 21:32:37] Password verification result - Match
+[2025-04-16 21:32:37] generateToken called - {"user_id":12}
+[2025-04-16 21:32:37] Token generated successfully
+[2025-04-16 21:33:55] getByUsername called - admin
+[2025-04-16 21:33:55] getByUsername result - User found
+[2025-04-16 21:33:55] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:33:55] getByUsername called - admin
+[2025-04-16 21:33:55] getByUsername result - User found
+[2025-04-16 21:33:55] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:33:55] Password verification result - Match
+[2025-04-16 21:33:55] generateToken called - {"user_id":1}
+[2025-04-16 21:33:55] Token generated successfully
+[2025-04-16 21:33:55] Password verification result - Match
+[2025-04-16 21:33:55] generateToken called - {"user_id":1}
+[2025-04-16 21:33:55] Token generated successfully
+[2025-04-16 21:34:13] getByUsername called - admin
+[2025-04-16 21:34:13] getByUsername result - User found
+[2025-04-16 21:34:13] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:34:13] getByUsername called - admin
+[2025-04-16 21:34:13] getByUsername result - User found
+[2025-04-16 21:34:13] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:34:13] Password verification result - No match
+[2025-04-16 21:34:13] Password verification result - No match
+[2025-04-16 21:34:37] getByUsername called - admin
+[2025-04-16 21:34:37] getByUsername called - admin
+[2025-04-16 21:34:37] getByUsername result - User found
+[2025-04-16 21:34:37] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:34:37] getByUsername result - User found
+[2025-04-16 21:34:37] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:34:38] Password verification result - Match
+[2025-04-16 21:34:38] generateToken called - {"user_id":1}
+[2025-04-16 21:34:38] Token generated successfully
+[2025-04-16 21:34:38] Password verification result - Match
+[2025-04-16 21:34:38] generateToken called - {"user_id":1}
+[2025-04-16 21:34:38] Token generated successfully
+[2025-04-16 21:37:42] getByUsername called - ghjj
+[2025-04-16 21:37:42] getByUsername result - User found
+[2025-04-16 21:37:42] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:37:42] getByUsername called - ghjj
+[2025-04-16 21:37:42] getByUsername result - User found
+[2025-04-16 21:37:42] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:37:43] Password verification result - Match
+[2025-04-16 21:37:43] generateToken called - {"user_id":12}
+[2025-04-16 21:37:43] Token generated successfully
+[2025-04-16 21:37:43] Password verification result - Match
+[2025-04-16 21:37:43] generateToken called - {"user_id":12}
+[2025-04-16 21:37:43] Token generated successfully
+[2025-04-16 21:38:53] getByUsername called - admin
+[2025-04-16 21:38:53] getByUsername result - User found
+[2025-04-16 21:38:53] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:38:54] Password verification result - No match
+[2025-04-16 21:38:57] getByUsername called - admin
+[2025-04-16 21:38:57] getByUsername result - User found
+[2025-04-16 21:38:57] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:38:57] Password verification result - No match
+[2025-04-16 21:39:01] getByUsername called - admin
+[2025-04-16 21:39:01] getByUsername result - User found
+[2025-04-16 21:39:01] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:39:01] Password verification result - No match
+[2025-04-16 21:39:23] getByUsername called - admin
+[2025-04-16 21:39:23] getByUsername result - User found
+[2025-04-16 21:39:23] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:39:23] Password verification result - No match
+[2025-04-16 21:39:31] getByUsername called - admin
+[2025-04-16 21:39:31] getByUsername result - User found
+[2025-04-16 21:39:31] verifyPassword called - Password length: 12, Hash length: 60
+[2025-04-16 21:39:31] Password verification result - No match
+[2025-04-16 21:39:42] getByUsername called - admin
+[2025-04-16 21:39:42] getByUsername result - User found
+[2025-04-16 21:39:42] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:39:42] Password verification result - Match
+[2025-04-16 21:39:42] generateToken called - {"user_id":1}
+[2025-04-16 21:39:42] Token generated successfully
+[2025-04-16 21:39:57] getByEmail called - prettygirl@gmail.com
+[2025-04-16 21:39:57] getByEmail result - User found
+[2025-04-16 21:39:57] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:39:57] Password verification result - Match
+[2025-04-16 21:39:57] generateToken called - {"user_id":11}
+[2025-04-16 21:39:57] Token generated successfully
+[2025-04-16 21:40:04] getByUsername called - admin
+[2025-04-16 21:40:04] getByUsername result - User found
+[2025-04-16 21:40:04] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:40:04] Password verification result - No match
+[2025-04-16 21:40:13] getByUsername called - admin
+[2025-04-16 21:40:13] getByUsername result - User found
+[2025-04-16 21:40:13] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:40:13] Password verification result - No match
+[2025-04-16 21:40:15] getByUsername called - admin
+[2025-04-16 21:40:15] getByUsername result - User found
+[2025-04-16 21:40:15] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:40:15] Password verification result - No match
+[2025-04-16 21:40:16] getByUsername called - admin
+[2025-04-16 21:40:16] getByUsername result - User found
+[2025-04-16 21:40:16] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:40:16] Password verification result - No match
+[2025-04-16 21:42:30] getByUsername called - admin
+[2025-04-16 21:42:30] getByUsername called - admin
+[2025-04-16 21:42:30] getByUsername result - User found
+[2025-04-16 21:42:30] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:42:30] getByUsername result - User found
+[2025-04-16 21:42:30] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:42:31] Password verification result - Match
+[2025-04-16 21:42:31] generateToken called - {"user_id":1}
+[2025-04-16 21:42:31] Token generated successfully
+[2025-04-16 21:42:31] Password verification result - Match
+[2025-04-16 21:42:31] generateToken called - {"user_id":1}
+[2025-04-16 21:42:31] Token generated successfully
+[2025-04-16 21:42:49] getByEmail called - prettygirl@gmail.com
+[2025-04-16 21:42:49] getByEmail result - User found
+[2025-04-16 21:42:49] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:42:49] getByEmail called - prettygirl@gmail.com
+[2025-04-16 21:42:49] getByEmail result - User found
+[2025-04-16 21:42:49] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:42:49] Password verification result - Match
+[2025-04-16 21:42:49] generateToken called - {"user_id":11}
+[2025-04-16 21:42:49] Token generated successfully
+[2025-04-16 21:42:49] Password verification result - Match
+[2025-04-16 21:42:49] generateToken called - {"user_id":11}
+[2025-04-16 21:42:49] Token generated successfully
+[2025-04-16 21:43:36] getByUsername called - ghjj
+[2025-04-16 21:43:36] getByUsername result - User found
+[2025-04-16 21:43:36] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:43:36] getByUsername called - ghjj
+[2025-04-16 21:43:36] getByUsername result - User found
+[2025-04-16 21:43:36] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:43:36] Password verification result - Match
+[2025-04-16 21:43:36] generateToken called - {"user_id":12}
+[2025-04-16 21:43:36] Token generated successfully
+[2025-04-16 21:43:36] Password verification result - Match
+[2025-04-16 21:43:36] generateToken called - {"user_id":12}
+[2025-04-16 21:43:36] Token generated successfully
+[2025-04-16 21:50:22] getByEmail called - prettygirl@gmail.com
+[2025-04-16 21:50:22] getByEmail result - User found
+[2025-04-16 21:50:22] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:50:22] getByEmail called - prettygirl@gmail.com
+[2025-04-16 21:50:22] getByEmail result - User found
+[2025-04-16 21:50:22] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:50:22] Password verification result - Match
+[2025-04-16 21:50:22] generateToken called - {"user_id":11}
+[2025-04-16 21:50:22] Token generated successfully
+[2025-04-16 21:50:22] Password verification result - Match
+[2025-04-16 21:50:22] generateToken called - {"user_id":11}
+[2025-04-16 21:50:22] Token generated successfully
+[2025-04-16 21:52:01] getByUsername called - yuegyegdy
+[2025-04-16 21:52:01] getByUsername called - yuegyegdy
+[2025-04-16 21:52:01] getByUsername result - User not found
+[2025-04-16 21:52:01] getByUsername result - User not found
+[2025-04-16 21:52:06] getByUsername called - yuegyegdy
+[2025-04-16 21:52:06] getByUsername result - User not found
+[2025-04-16 21:52:06] getByUsername called - yuegyegdy
+[2025-04-16 21:52:06] getByUsername result - User not found
+[2025-04-16 21:52:19] getByUsername called - admin
+[2025-04-16 21:52:19] getByUsername result - User found
+[2025-04-16 21:52:19] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:52:19] getByUsername called - admin
+[2025-04-16 21:52:19] getByUsername result - User found
+[2025-04-16 21:52:19] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 21:52:19] Password verification result - No match
+[2025-04-16 21:52:20] Password verification result - No match
+[2025-04-16 21:52:31] getByUsername called - admin
+[2025-04-16 21:52:31] getByUsername result - User found
+[2025-04-16 21:52:31] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:52:31] getByUsername called - admin
+[2025-04-16 21:52:31] getByUsername result - User found
+[2025-04-16 21:52:31] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 21:52:31] Password verification result - Match
+[2025-04-16 21:52:31] generateToken called - {"user_id":1}
+[2025-04-16 21:52:31] Token generated successfully
+[2025-04-16 21:52:31] Password verification result - Match
+[2025-04-16 21:52:31] generateToken called - {"user_id":1}
+[2025-04-16 21:52:31] Token generated successfully
+[2025-04-16 21:54:06] getByUsername called - woked
+[2025-04-16 21:54:06] getByUsername result - User not found
+[2025-04-16 21:54:06] getByEmail called - woke@gmail.com
+[2025-04-16 21:54:06] getByEmail result - User not found
+[2025-04-16 21:54:06] create called - {"username":"woked","email":"woke@gmail.com","password":"12345678","fullName":"woked","phone":"47847474","country":"DZ","role":"user"}
+[2025-04-16 21:54:07] User created with ID - 14
+[2025-04-16 21:54:07] getById called - 14
+[2025-04-16 21:54:07] getById result - User found
+[2025-04-16 21:54:07] generateToken called - {"user_id":14}
+[2025-04-16 21:54:07] Token generated successfully
+[2025-04-16 22:11:16] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:11:16] getByEmail result - User found
+[2025-04-16 22:11:16] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:11:16] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:11:16] getByEmail result - User found
+[2025-04-16 22:11:16] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:11:17] Password verification result - Match
+[2025-04-16 22:11:17] generateToken called - {"user_id":11}
+[2025-04-16 22:11:17] Token generated successfully
+[2025-04-16 22:11:17] Password verification result - Match
+[2025-04-16 22:11:17] generateToken called - {"user_id":11}
+[2025-04-16 22:11:17] Token generated successfully
+[2025-04-16 22:11:19] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:11:19] getByEmail result - User found
+[2025-04-16 22:11:19] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:11:19] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:11:19] getByEmail result - User found
+[2025-04-16 22:11:19] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:11:20] Password verification result - Match
+[2025-04-16 22:11:20] generateToken called - {"user_id":11}
+[2025-04-16 22:11:20] Token generated successfully
+[2025-04-16 22:11:21] Password verification result - Match
+[2025-04-16 22:11:21] generateToken called - {"user_id":11}
+[2025-04-16 22:11:21] Token generated successfully
+[2025-04-16 22:11:23] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:11:23] getByEmail result - User found
+[2025-04-16 22:11:23] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:11:23] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:11:23] getByEmail result - User found
+[2025-04-16 22:11:23] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:11:24] Password verification result - Match
+[2025-04-16 22:11:24] generateToken called - {"user_id":11}
+[2025-04-16 22:11:24] Token generated successfully
+[2025-04-16 22:11:24] Password verification result - Match
+[2025-04-16 22:11:24] generateToken called - {"user_id":11}
+[2025-04-16 22:11:24] Token generated successfully
+[2025-04-16 22:22:00] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:22:00] getByEmail result - User found
+[2025-04-16 22:22:00] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:22:01] Password verification result - Match
+[2025-04-16 22:22:01] generateToken called - {"user_id":11}
+[2025-04-16 22:22:01] Token generated successfully
+[2025-04-16 22:23:27] getByUsername called - woked
+[2025-04-16 22:23:27] getByUsername result - User found
+[2025-04-16 22:23:51] getByUsername called - woked
+[2025-04-16 22:23:51] getByUsername result - User found
+[2025-04-16 22:24:01] getByUsername called - woked
+[2025-04-16 22:24:01] getByUsername result - User found
+[2025-04-16 22:24:51] getByUsername called - red
+[2025-04-16 22:24:51] getByUsername result - User not found
+[2025-04-16 22:24:51] getByEmail called - gome@gmail.com
+[2025-04-16 22:24:51] getByEmail result - User found
+[2025-04-16 22:26:26] getByUsername called - woked
+[2025-04-16 22:26:26] getByUsername result - User found
+[2025-04-16 22:30:34] getByUsername called - woked
+[2025-04-16 22:30:34] getByUsername result - User found
+[2025-04-16 22:30:35] getByUsername called - woked
+[2025-04-16 22:30:35] getByUsername result - User found
+[2025-04-16 22:35:07] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:35:07] getByEmail called - prettygirl@gmail.com
+[2025-04-16 22:35:07] getByEmail result - User found
+[2025-04-16 22:35:07] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:35:07] getByEmail result - User found
+[2025-04-16 22:35:07] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 22:35:08] Password verification result - Match
+[2025-04-16 22:35:08] generateToken called - {"user_id":11}
+[2025-04-16 22:35:08] Token generated successfully
+[2025-04-16 22:35:08] Password verification result - Match
+[2025-04-16 22:35:08] generateToken called - {"user_id":11}
+[2025-04-16 22:35:08] Token generated successfully
+[2025-04-16 22:47:06] getByUsername called - woked
+[2025-04-16 22:47:06] getByUsername result - User found
+[2025-04-16 22:47:09] getByUsername called - woked
+[2025-04-16 22:47:09] getByUsername result - User found
+[2025-04-16 22:47:10] getByUsername called - woked
+[2025-04-16 22:47:10] getByUsername result - User found
+[2025-04-16 22:47:11] getByUsername called - woked
+[2025-04-16 22:47:11] getByUsername result - User found
+[2025-04-16 22:47:11] getByUsername called - woked
+[2025-04-16 22:47:11] getByUsername result - User found
+[2025-04-16 23:21:12] getByUsername called - woked
+[2025-04-16 23:21:13] getByUsername result - User found
+[2025-04-16 23:21:15] getByUsername called - woked
+[2025-04-16 23:21:15] getByUsername result - User found
+[2025-04-16 23:21:24] getByUsername called - woked
+[2025-04-16 23:21:24] getByUsername result - User found
+[2025-04-16 23:21:26] getByUsername called - woked
+[2025-04-16 23:21:26] getByUsername result - User found
+[2025-04-16 23:22:32] getByUsername called - wait
+[2025-04-16 23:22:32] getByUsername result - User found
+[2025-04-16 23:22:32] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 23:22:32] Password verification result - No match
+[2025-04-16 23:22:33] getByUsername called - wait
+[2025-04-16 23:22:33] getByUsername result - User found
+[2025-04-16 23:22:33] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 23:22:33] Password verification result - No match
+[2025-04-16 23:22:48] getByUsername called - admin
+[2025-04-16 23:22:48] getByUsername result - User found
+[2025-04-16 23:22:48] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 23:22:49] Password verification result - Match
+[2025-04-16 23:22:49] generateToken called - {"user_id":1}
+[2025-04-16 23:22:49] Token generated successfully
+[2025-04-16 23:22:53] getByUsername called - b jb
+[2025-04-16 23:22:53] getByUsername result - User found
+[2025-04-16 23:22:53] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 23:22:53] Password verification result - No match
+[2025-04-16 23:26:12] getByUsername called - uu
+[2025-04-16 23:26:12] getByUsername result - User not found
+[2025-04-16 23:26:12] getByEmail called - redstar@gmail.com
+[2025-04-16 23:26:12] getByEmail result - User not found
+[2025-04-16 23:26:12] create called - {"username":"uu","email":"redstar@gmail.com","password":"12345678","fullName":"hh","phone":"374778497","country":"DZ","role":"user"}
+[2025-04-16 23:26:13] User created with ID - 15
+[2025-04-16 23:26:13] getById called - 15
+[2025-04-16 23:26:13] getById result - User found
+[2025-04-16 23:26:13] generateToken called - {"user_id":15}
+[2025-04-16 23:26:13] Token generated successfully
+[2025-04-16 23:27:31] getByEmail called - redstar@gmail.com
+[2025-04-16 23:27:31] getByEmail result - User found
+[2025-04-16 23:27:31] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 23:27:31] Password verification result - Match
+[2025-04-16 23:27:31] generateToken called - {"user_id":15}
+[2025-04-16 23:27:31] Token generated successfully
+[2025-04-16 23:27:50] getByEmail called - redstar@gmail.com
+[2025-04-16 23:27:50] getByEmail result - User found
+[2025-04-16 23:27:50] verifyPassword called - Password length: 9, Hash length: 60
+[2025-04-16 23:27:50] Password verification result - No match
+[2025-04-16 23:28:18] getByEmail called - redstar@gmail.com
+[2025-04-16 23:28:18] getByEmail result - User found
+[2025-04-16 23:28:18] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 23:28:18] Password verification result - Match
+[2025-04-16 23:28:18] generateToken called - {"user_id":15}
+[2025-04-16 23:28:18] Token generated successfully
+[2025-04-16 23:31:38] getByUsername called - ghjj
+[2025-04-16 23:31:38] getByUsername result - User found
+[2025-04-16 23:31:38] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 23:31:38] Password verification result - Match
+[2025-04-16 23:31:38] generateToken called - {"user_id":12}
+[2025-04-16 23:31:38] Token generated successfully
+[2025-04-16 23:39:53] getByEmail called - prettygirl@gmail.com
+[2025-04-16 23:39:53] getByEmail result - User found
+[2025-04-16 23:39:53] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 23:39:53] Password verification result - Match
+[2025-04-16 23:39:53] generateToken called - {"user_id":11}
+[2025-04-16 23:39:53] Token generated successfully
+[2025-04-16 23:50:02] getByUsername called - admin
+[2025-04-16 23:50:02] getByUsername result - User found
+[2025-04-16 23:50:02] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 23:50:03] Password verification result - Match
+[2025-04-16 23:50:03] generateToken called - {"user_id":1}
+[2025-04-16 23:50:03] Token generated successfully
+[2025-04-16 23:50:29] getByUsername called - admin
+[2025-04-16 23:50:29] getByUsername result - User found
+[2025-04-16 23:50:29] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 23:50:29] Password verification result - No match
+[2025-04-16 23:50:41] getByUsername called - admin
+[2025-04-16 23:50:41] getByUsername result - User found
+[2025-04-16 23:50:41] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-16 23:50:42] Password verification result - Match
+[2025-04-16 23:50:42] generateToken called - {"user_id":1}
+[2025-04-16 23:50:42] Token generated successfully
+[2025-04-16 23:59:16] getByEmail called - prettgirl@gmail.com
+[2025-04-16 23:59:16] getByEmail result - User not found
+[2025-04-16 23:59:23] getByEmail called - prettygirl@gmail.com
+[2025-04-16 23:59:23] getByEmail result - User found
+[2025-04-16 23:59:23] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-16 23:59:23] Password verification result - Match
+[2025-04-16 23:59:23] generateToken called - {"user_id":11}
+[2025-04-16 23:59:23] Token generated successfully
+[2025-04-17 00:44:17] getByEmail called - prettygirl@gmail.com
+[2025-04-17 00:44:17] getByEmail result - User found
+[2025-04-17 00:44:17] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 00:44:18] Password verification result - Match
+[2025-04-17 00:44:18] generateToken called - {"user_id":11}
+[2025-04-17 00:44:18] Token generated successfully
+[2025-04-17 01:33:32] getByEmail called - prettygirl@gmail.com
+[2025-04-17 01:33:32] getByEmail result - User found
+[2025-04-17 01:33:32] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 01:33:32] Password verification result - Match
+[2025-04-17 01:33:32] generateToken called - {"user_id":11}
+[2025-04-17 01:33:32] Token generated successfully
+[2025-04-17 01:43:46] getByEmail called - prettygirl@gmail.com
+[2025-04-17 01:43:46] getByEmail result - User found
+[2025-04-17 01:43:46] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 01:43:46] Password verification result - Match
+[2025-04-17 01:43:46] generateToken called - {"user_id":11}
+[2025-04-17 01:43:46] Token generated successfully
+[2025-04-17 01:54:02] getByEmail called - prettygirl@gmail.com
+[2025-04-17 01:54:02] getByEmail result - User found
+[2025-04-17 01:54:02] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 01:54:03] Password verification result - Match
+[2025-04-17 01:54:03] generateToken called - {"user_id":11}
+[2025-04-17 01:54:03] Token generated successfully
+[2025-04-17 02:03:21] getByEmail called - prettygirl@gmail.com
+[2025-04-17 02:03:21] getByEmail result - User found
+[2025-04-17 02:03:21] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 02:03:22] Password verification result - Match
+[2025-04-17 02:03:22] generateToken called - {"user_id":11}
+[2025-04-17 02:03:22] Token generated successfully
+[2025-04-17 02:09:57] getByUsername called - admin
+[2025-04-17 02:09:57] getByUsername result - User found
+[2025-04-17 02:09:57] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-17 02:09:58] Password verification result - Match
+[2025-04-17 02:09:58] generateToken called - {"user_id":1}
+[2025-04-17 02:09:58] Token generated successfully
+[2025-04-17 02:30:07] getByEmail called - prettygirl@gmail.com
+[2025-04-17 02:30:07] getByEmail result - User found
+[2025-04-17 02:30:07] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 02:30:08] Password verification result - Match
+[2025-04-17 02:30:08] generateToken called - {"user_id":11}
+[2025-04-17 02:30:08] Token generated successfully
+[2025-04-17 17:11:33] getByUsername called - admin
+[2025-04-17 17:11:33] getByUsername result - User found
+[2025-04-17 17:11:33] verifyPassword called - Password length: 11, Hash length: 60
+[2025-04-17 17:11:33] Password verification result - Match
+[2025-04-17 17:11:33] generateToken called - {"user_id":1}
+[2025-04-17 17:11:33] Token generated successfully
+[2025-04-17 17:30:43] getByEmail called - prettygirl@gmail.com
+[2025-04-17 17:30:43] getByEmail result - User found
+[2025-04-17 17:30:43] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 17:30:43] Password verification result - Match
+[2025-04-17 17:30:43] generateToken called - {"user_id":11}
+[2025-04-17 17:30:43] Token generated successfully
+[2025-04-17 17:40:32] getByEmail called - prettygirl@gmail.com
+[2025-04-17 17:40:32] getByEmail result - User found
+[2025-04-17 17:40:33] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 17:40:33] Password verification result - Match
+[2025-04-17 17:40:33] generateToken called - {"user_id":11}
+[2025-04-17 17:40:33] Token generated successfully
+[2025-04-17 20:12:55] getByEmail called - prettygirl@gmail.com
+[2025-04-17 20:12:55] getByEmail result - User found
+[2025-04-17 20:12:55] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 20:12:55] Password verification result - Match
+[2025-04-17 20:12:55] generateToken called - {"user_id":11}
+[2025-04-17 20:12:55] Token generated successfully
+[2025-04-17 20:15:16] getByEmail called - prettygirl@gmail.com
+[2025-04-17 20:15:16] getByEmail result - User found
+[2025-04-17 20:15:16] verifyPassword called - Password length: 8, Hash length: 60
+[2025-04-17 20:15:16] Password verification result - Match
+[2025-04-17 20:15:16] generateToken called - {"user_id":11}
+[2025-04-17 20:15:16] Token generated successfully

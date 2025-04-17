@@ -1,0 +1,6 @@
+[2025-04-17 01:26:58] Request received - Method: POST
+[2025-04-17 01:26:58] Received data: {"action":"login","username":"admin","password":"***MASKED***"}
+[2025-04-17 01:26:59] Login successful for user: admin
+[2025-04-17 01:26:59] Request received - Method: POST
+[2025-04-17 01:26:59] Received data: {"action":"profile"}
+[2025-04-17 01:26:59] Profile retrieved for user ID: 1

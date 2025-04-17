@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BiTrader Dashboard</title>
+	<style>
+body {
+			font-family: 'Arial', sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			background-color: #0a1929;
+			color: white;
+		}
+		.loader {
+			border: 5px solid rgba(255, 255, 255, 0.3);
+			border-radius: 50%;
+			border-top: 5px solid #00d094;
+			width: 50px;
+			height: 50px;
+			animation: spin 1s linear infinite;
+			margin-bottom: 20px;
+		}
+		.container {
+			text-align: center;
+		}
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="loader"></div>
+		<h2>Loading Dashboard...</h2>
+		<p>Please wait while we redirect you to your dashboard.</p>
+	</div>
+
+	<!-- Authentication Check -->
+	<script src="absolute-auth-check.js"></script>
+
+	<!-- Redirect Script -->
+	<script>
+		// Redirect to dashboard after a short delay
+		setTimeout(function() {
+			window.location.href = 'dashboard/index.php';
+		}, 1500);
+	</script>
+</body>
+</html>
+
+

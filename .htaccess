@@ -1,0 +1,19 @@
+# Disable strict MIME type checking
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# Proper MIME types for JavaScript and CSS
+AddType application/javascript .js
+AddType text/css .css
+
+# Allow CORS for all resources
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+# Enable mod_rewrite
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+</IfModule>

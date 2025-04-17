@@ -1,0 +1,2 @@
+/* AOS (Animate On Scroll) JS - Added by copy_missing_assets.php */
+/* This is a placeholder for AOS. If you need the full library, download it from https://michalsnik.github.io/aos/ */

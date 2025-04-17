@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Debug Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+        .success {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+        .warning {
+            color: orange;
+        }
+        #debug-output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            height: 300px;
+            overflow-y: auto;
+            background-color: #f9f9f9;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .steps-container {
+            margin-top: 20px;
+        }
+        .step {
+            border-left: 3px solid #ddd;
+            padding-left: 15px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .step-pending {
+            border-left-color: #f0ad4e;
+        }
+        .step-success {
+            border-left-color: #5cb85c;
+        }
+        .step-error {
+            border-left-color: #d9534f;
+        }
+        .step:before {
+            content: "";
+            position: absolute;
+            left: -9px;
+            top: 0;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: #ddd;
+        }
+        .step-pending:before {
+            background-color: #f0ad4e;
+        }
+        .step-success:before {
+            background-color: #5cb85c;
+        }
+        .step-error:before {
+            background-color: #d9534f;
+        }
+        #progress-indicator {
+            display: none;
+            margin-top: 10px;
+        }
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border-left-color: #09f;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>BiTrader Login Debug Tool</h1>
+    <p>This tool will help diagnose what's happening with the login process.</p>
+    
+    <div class="form-group">
+        <label for="username">Username or Email:</label>
+        <input type="text" id="username" name="username" value="admin" placeholder="Enter username or email">
+    </div>
+    
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="admin123" placeholder="Enter password">
+    </div>
+    
+    <button id="test-login-btn">Test Login</button>
+    <button id="clear-btn">Clear Output</button>
+    
+    <div id="progress-indicator">
+        <div class="spinner"></div>
+        <span>Processing...</span>
+    </div>
+    
+    <div class="steps-container">
+        <h2>Login Process Steps</h2>
+        <div id="step1" class="step">
+            <h3>Step 1: Validate Input</h3>
+            <p>Check if username and password are provided.</p>
+        </div>
+        <div id="step2" class="step">
+            <h3>Step 2: Send API Request</h3>
+            <p>Send username and password to the backend API.</p>
+        </div>
+        <div id="step3" class="step">
+            <h3>Step 3: Process API Response</h3>
+            <p>Check if the API returns a valid JSON response.</p>
+        </div>
+        <div id="step4" class="step">
+            <h3>Step 4: Store Authentication Data</h3>
+            <p>Save token and user data in localStorage.</p>
+        </div>
+        <div id="step5" class="step">
+            <h3>Step 5: Redirect to Dashboard</h3>
+            <p>Check if the dashboard URL is correct and redirect process works.</p>
+        </div>
+    </div>
+    
+    <h2>Debug Output</h2>
+    <div id="debug-output"></div>
+    
+    <h2>localStorage Content</h2>
+    <div id="localstorage-content">
+        <p>Nothing in localStorage yet.</p>
+    </div>
+    
+    <script>
+        // Debug output function
+        function log(message, type = 'info') {
+            const output = document.getElementById('debug-output');
+            const logItem = document.createElement('div');
+            
+            if (type === 'error') {
+                logItem.innerHTML = `<span style="color: red;">[ERROR] ${message}</span>`;
+            } else if (type === 'success') {
+                logItem.innerHTML = `<span style="color: green;">[SUCCESS] ${message}</span>`;
+            } else if (type === 'raw') {
+                logItem.innerHTML = message;
+            } else {
+                logItem.innerHTML = `[INFO] ${message}`;
+            }
+            
+            output.appendChild(logItem);
+            output.scrollTop = output.scrollHeight;
+        }
+        
+        // Update step status
+        function updateStep(stepNumber, status, message = null) {
+            const step = document.getElementById(`step${stepNumber}`);
+            
+            // Remove existing status classes
+            step.classList.remove('step-pending', 'step-success', 'step-error');
+            
+            // Add appropriate class
+            step.classList.add(`step-${status}`);
+            
+            // Update message if provided
+            if (message) {
+                const paragraph = step.querySelector('p');
+                paragraph.textContent = message;
+            }
+        }
+        
+        // Reset all steps
+        function resetSteps() {
+            for (let i = 1; i <= 5; i++) {
+                const step = document.getElementById(`step${i}`);
+                step.classList.remove('step-pending', 'step-success', 'step-error');
+            }
+        }
+        
+        // Update localStorage display
+        function updateLocalStorageDisplay() {
+            const container = document.getElementById('localstorage-content');
+            let content = '';
+            
+            if (localStorage.length === 0) {
+                content = '<p>Nothing in localStorage.</p>';
+            } else {
+                content = '<ul>';
+                for (let i = 0; i < localStorage.length; i++) {
+                    const key = localStorage.key(i);
+                    let value = localStorage.getItem(key);
+                    
+                    // Try to format JSON
+                    try {
+                        if (key === 'userData') {
+                            const userData = JSON.parse(value);
+                            value = JSON.stringify(userData, null, 2);
+                        } else if (key === 'authToken') {
+                            value = value.substring(0, 20) + '...';
+                        }
+                    } catch (e) {
+                        // If it's not valid JSON, just use the raw value
+                    }
+                    
+                    content += `<li><strong>${key}:</strong> <pre>${value}</pre></li>`;
+                }
+                content += '</ul>';
+            }
+            
+            container.innerHTML = content;
+        }
+        
+        // Test login function
+        async function testLogin() {
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+            
+            // Show progress indicator
+            document.getElementById('progress-indicator').style.display = 'block';
+            
+            // Reset steps
+            resetSteps();
+            
+            // Clear output
+            document.getElementById('debug-output').innerHTML = '';
+            
+            // Start logging
+            log(`Starting login test with username: ${username}`);
+            
+            // Step 1: Validate input
+            updateStep(1, 'pending');
+            
+            if (!username || !password) {
+                updateStep(1, 'error', 'Username or password is empty');
+                log('Validation failed: Username or password is empty', 'error');
+                document.getElementById('progress-indicator').style.display = 'none';
+                return;
+            }
+            
+            updateStep(1, 'success', 'Validation passed');
+            log('Validation successful', 'success');
+            
+            // Step 2: Send API request
+            updateStep(2, 'pending');
+            log(`Sending request to API (${username}, ${password.replace(/./g, '*')})`);
+            
+            try {
+                const response = await fetch('http://localhost/PROJECT-BITRADER/backend/direct-login.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        username: username,
+                        password: password
+                    })
+                });
+                
+                log(`API response status: ${response.status}`);
+                
+                if (response.status !== 200) {
+                    updateStep(2, 'error', `API returned status ${response.status}`);
+                    log(`API request failed with status ${response.status}`, 'error');
+                    document.getElementById('progress-indicator').style.display = 'none';
+                    return;
+                }
+                
+                updateStep(2, 'success', 'API request successful');
+                log('API request succeeded', 'success');
+                
+                // Step 3: Process API response
+                updateStep(3, 'pending');
+                
+                const responseText = await response.text();
+                log(`Raw API response: ${responseText}`);
+                
+                let jsonData;
+                try {
+                    jsonData = JSON.parse(responseText);
+                    log('Successfully parsed API response as JSON', 'success');
+                    log(`Response contains success: ${jsonData.success}`, jsonData.success ? 'success' : 'error');
+                    
+                    if (!jsonData.success) {
+                        updateStep(3, 'error', `API returned error: ${jsonData.message}`);
+                        log(`Login failed: ${jsonData.message}`, 'error');
+                        document.getElementById('progress-indicator').style.display = 'none';
+                        return;
+                    }
+                    
+                    updateStep(3, 'success', 'API returned success response');
+                    
+                } catch (e) {
+                    updateStep(3, 'error', 'Failed to parse API response as JSON');
+                    log(`JSON parse error: ${e.message}`, 'error');
+                    document.getElementById('progress-indicator').style.display = 'none';
+                    return;
+                }
+                
+                // Step 4: Store authentication data
+                updateStep(4, 'pending');
+                
+                try {
+                    // Check if response has the expected data
+                    if (!jsonData.data || !jsonData.data.token || !jsonData.data.user) {
+                        updateStep(4, 'error', 'API response missing required data');
+                        log('API response missing required data (token or user)', 'error');
+                        document.getElementById('progress-indicator').style.display = 'none';
+                        return;
+                    }
+                    
+                    // Try to store in localStorage
+                    localStorage.setItem('authToken', jsonData.data.token);
+                    localStorage.setItem('userData', JSON.stringify(jsonData.data.user));
+                    log('Successfully stored authentication data in localStorage', 'success');
+                    updateLocalStorageDisplay();
+                    
+                    // Verify storage
+                    const storedToken = localStorage.getItem('authToken');
+                    const storedUserData = localStorage.getItem('userData');
+                    
+                    if (!storedToken || !storedUserData) {
+                        updateStep(4, 'error', 'Failed to verify localStorage data');
+                        log('Failed to verify data was stored in localStorage', 'error');
+                        document.getElementById('progress-indicator').style.display = 'none';
+                        return;
+                    }
+                    
+                    updateStep(4, 'success', 'Authentication data stored in localStorage');
+                    
+                } catch (e) {
+                    updateStep(4, 'error', `localStorage error: ${e.message}`);
+                    log(`localStorage error: ${e.message}`, 'error');
+                    document.getElementById('progress-indicator').style.display = 'none';
+                    return;
+                }
+                
+                // Step 5: Test redirect URL
+                updateStep(5, 'pending');
+                
+                const dashboardUrl = '../../coinex/dashboard/index.php';
+                log(`Dashboard URL: ${dashboardUrl}`);
+                
+                // Test if URL format looks correct
+                if (!dashboardUrl.includes('dashboard')) {
+                    updateStep(5, 'error', 'Dashboard URL appears to be incorrect');
+                    log('Dashboard URL appears to be incorrect', 'error');
+                    document.getElementById('progress-indicator').style.display = 'none';
+                    return;
+                }
+                
+                // Check if the dashboard page exists (can't actually do this in JavaScript)
+                log('Dashboard URL format looks correct');
+                updateStep(5, 'success', 'Ready to redirect to dashboard');
+                log('Would redirect to dashboard in a real login', 'success');
+                
+                // Offer actual redirect
+                const redirectBtn = document.createElement('button');
+                redirectBtn.textContent = 'Redirect to Dashboard';
+                redirectBtn.onclick = function() {
+                    window.location.href = dashboardUrl;
+                };
+                redirectBtn.style.marginTop = '10px';
+                document.getElementById('debug-output').appendChild(redirectBtn);
+                
+            } catch (e) {
+                log(`Fetch error: ${e.message}`, 'error');
+                updateStep(2, 'error', `Network error: ${e.message}`);
+                document.getElementById('progress-indicator').style.display = 'none';
+                return;
+            }
+            
+            // Hide progress indicator
+            document.getElementById('progress-indicator').style.display = 'none';
+        }
+        
+        // Set up event listeners
+        document.getElementById('test-login-btn').addEventListener('click', testLogin);
+        
+        document.getElementById('clear-btn').addEventListener('click', function() {
+            document.getElementById('debug-output').innerHTML = '';
+            resetSteps();
+        });
+        
+        // Initialize
+        updateLocalStorageDisplay();
+        
+        // Log if already logged in
+        if (localStorage.getItem('authToken') && localStorage.getItem('userData')) {
+            log('User appears to be already logged in based on localStorage', 'success');
+        }
+    </script>
+</body>
+</html> 

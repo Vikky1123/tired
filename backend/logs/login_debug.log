@@ -1,0 +1,2072 @@
+=== Login attempt at 2025-04-16 16:18:53 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:26:00 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => justme@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:26:11 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => justme@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:42:20 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:48:32 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:49:02 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => wow
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:49:04 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => wow
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:49:08 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => wait
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:49:09 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => test_user_2656
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:49:11 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 16:52:06 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 16:52:18 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 16:52:29 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => 12345678
+    [password] => ********
+)
+
+Error: No user found with username: 12345678
+Error: No user found
+=== Login attempt at 2025-04-16 16:52:43 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 17:24:14 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 17:24:14 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 17:27:10 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 17:27:10 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 17:36:25 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:36:36 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:36:53 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:36:57 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:35 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:37 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:38 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:38 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:39 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:40 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:40 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:49 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:52 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:53 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:54 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:55 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:56 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:57:56 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:58:02 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:58:03 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:58:13 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 17:58:16 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 17:58:17 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 17:58:22 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 17:58:30 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 17:58:32 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 17:59:03 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 17:59:03 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 18:02:40 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => 5766686868
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 18:02:40 ===
+Request Method: POST
+Error: No user found with username: 5766686868
+Error: No user found
+Data source: JSON input
+Received data: Array
+(
+    [username] => 5766686868
+    [password] => ********
+)
+
+Error: No user found with username: 5766686868
+Error: No user found
+=== Login attempt at 2025-04-16 18:03:09 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 18:03:09 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => fcghvghv
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => fcghvghv
+    [password] => ********
+)
+
+Error: No user found with username: fcghvghv
+Error: No user found
+Error: No user found with username: fcghvghv
+Error: No user found
+=== Login attempt at 2025-04-16 18:08:48 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 18:09:30 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 18:09:37 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 18:09:46 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 18:10:27 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 18:11:20 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 18:13:24 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 18:13:24 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 18:14:13 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 18:14:13 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 18:14:47 ===
+Request Method: POST
+Data source: JSON input
+5-04-16 18:14:47 ===
+Request Method: POST
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 18:16:39 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 18:16:39 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 20:27:09 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 20:27:09 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 20:30:40 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 20:30:40 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => bbb
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => bbb
+    [password] => ********
+)
+
+Error: No user found with username: bbb
+Error: No user found with username: bbb
+Error: No user found
+Error: No user found
+=== Login attempt at 2025-04-16 20:30:53 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => h b
+    [password] => ********
+)
+
+Error: No user found with username: h b
+=== Login attempt at 2025-04-16 20:30:53 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => h b
+    [password] => ********
+)
+
+Error: No user found with username: h b
+Error: No user found
+=== Login attempt at 2025-04-16 21:06:56 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:06:57 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:07:04 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:11:11 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:11:12 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:11:23 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => 889
+    [password] => ********
+)
+
+Error: No user found with username: 889
+Error: No user found
+=== Login attempt at 2025-04-16 21:11:24 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => 889
+    [password] => ********
+)
+
+Error: No user found with username: 889
+Error: No user found
+=== Login attempt at 2025-04-16 21:15:43 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:15:43 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:15:47 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:15:47 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:15:51 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:15:51 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:16:42 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:16:42 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:16:46 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:16:46 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:16:50 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:16:50 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:17:07 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:17:07 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:17:21 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:17:21 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjjwe
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjjwe
+    [password] => ********
+)
+
+Error: No user found with username: ghjjwe
+Error: No user found
+Error: No user found with username: ghjjwe
+Error: No user found
+=== Login attempt at 2025-04-16 21:17:23 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:17:23 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:17:26 ===
+Request Method: POST
+Data source: JSON input
+=== Login attempt at 2025-04-16 21:17:26 ===
+Request Method: POST
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:17:32 ===
+Request Method: POST
+Data source: JSON input
+=== Login attempt at 2025-04-16 21:17:32 ===
+Request Method: POST
+Received data: Array
+(
+    [username] => 677
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => 677
+    [password] => ********
+)
+
+Error: No user found with username: 677
+Error: No user found
+Error: No user found with username: 677
+Error: No user found
+=== Login attempt at 2025-04-16 21:17:54 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:17:54 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:18:33 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:18:33 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:18:50 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:18:50 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:20:15 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:20:15 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:22:32 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:22:32 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:24:02 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:24:30 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 21:25:39 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:25:39 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 21:30:31 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:30:32 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:31:09 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:31:09 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:31:49 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:31:49 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:32:37 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:32:37 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:33:55 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:33:55 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:34:13 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:34:13 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:34:37 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:34:37 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:37:42 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:37:42 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:38:53 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:38:57 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:39:01 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:39:23 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:39:31 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:39:42 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:39:57 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 21:40:04 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:40:13 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:40:15 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:40:16 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:42:30 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:42:30 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 21:42:49 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:42:49 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 21:43:36 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:43:36 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 21:50:22 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 21:50:22 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 21:52:01 ===
+Request Method: POST
+Data source: JSON input
+=== Login attempt at 2025-04-16 21:52:01 ===
+Request Method: POST
+Received data: Array
+(
+    [username] => yuegyegdy
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => yuegyegdy
+    [password] => ********
+)
+
+Error: No user found with username: yuegyegdy
+Error: No user found
+Error: No user found with username: yuegyegdy
+Error: No user found
+=== Login attempt at 2025-04-16 21:52:06 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => yuegyegdy
+    [password] => ********
+)
+
+Error: No user found with username: yuegyegdy
+Error: No user found
+=== Login attempt at 2025-04-16 21:52:06 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => yuegyegdy
+    [password] => ********
+)
+
+Error: No user found with username: yuegyegdy
+Error: No user found
+=== Login attempt at 2025-04-16 21:52:19 ===
+Request Method: POST
+Data source: JSON input
+=== Login attempt at 2025-04-16 21:52:19 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 21:52:31 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 21:52:31 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 22:11:16 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 22:11:16 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 22:11:19 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 22:11:19 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 22:11:23 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+=== Login attempt at 2025-04-16 22:11:23 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 22:22:00 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 22:35:07 ===
+Request Method: POST
+=== Login attempt at 2025-04-16 22:35:07 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 23:22:32 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => wait
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 23:22:33 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => wait
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 23:22:48 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 23:22:53 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => b jb
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 23:27:31 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => redstar@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 15
+=== Login attempt at 2025-04-16 23:27:50 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => redstar@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 23:28:18 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => redstar@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 15
+=== Login attempt at 2025-04-16 23:31:38 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => ghjj
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 12
+=== Login attempt at 2025-04-16 23:39:53 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-16 23:50:02 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 23:50:29 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Failed
+Error: Invalid credentials
+=== Login attempt at 2025-04-16 23:50:41 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-16 23:59:16 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettgirl@gmail.com
+    [password] => ********
+)
+
+Error: No user found with email: prettgirl@gmail.com
+Error: No user found
+=== Login attempt at 2025-04-16 23:59:23 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 00:44:17 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 01:33:32 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 01:43:46 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 01:54:02 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 02:03:21 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 02:09:57 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-17 02:30:07 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 17:11:33 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => admin
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 1
+=== Login attempt at 2025-04-17 17:30:43 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 17:40:32 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 20:12:55 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11
+=== Login attempt at 2025-04-17 20:15:16 ===
+Request Method: POST
+Data source: JSON input
+Received data: Array
+(
+    [username] => prettygirl@gmail.com
+    [password] => ********
+)
+
+Using User::verifyPassword method: Success
+Success: User authenticated successfully, ID: 11

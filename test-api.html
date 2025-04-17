@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiTrader API Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .panel {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BiTrader API Test</h1>
+    
+    <div class="container">
+        <div class="panel">
+            <h2>Login Test</h2>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" value="testuser">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" value="password123">
+            </div>
+            <button id="loginBtn">Test Login</button>
+            <div id="loginResult" class="result"></div>
+        </div>
+        
+        <div class="panel">
+            <h2>Register Test</h2>
+            <div class="form-group">
+                <label for="regUsername">Username:</label>
+                <input type="text" id="regUsername" value="newuser">
+            </div>
+            <div class="form-group">
+                <label for="regEmail">Email:</label>
+                <input type="email" id="regEmail" value="newuser@example.com">
+            </div>
+            <div class="form-group">
+                <label for="regPassword">Password:</label>
+                <input type="password" id="regPassword" value="password123">
+            </div>
+            <div class="form-group">
+                <label for="regFullName">Full Name:</label>
+                <input type="text" id="regFullName" value="New User">
+            </div>
+            <button id="registerBtn">Test Register</button>
+            <div id="registerResult" class="result"></div>
+        </div>
+    </div>
+    
+    <script>
+    /**
+     * API Client for BiTrader
+     */
+    const API = {
+        // Base URL for API endpoints - use absolute path from root
+        baseUrl: window.location.origin + '/backend/api',
+        
+        /**
+         * Perform a fetch request to the API
+         * 
+         * @param {string} endpoint - API endpoint
+         * @param {string} method - HTTP method (GET, POST, PUT, DELETE)
+         * @param {object} data - Request data (for POST/PUT)
+         * @param {boolean} useToken - Whether to include auth token
+         * @returns {Promise} - Fetch promise
+         */
+        async request(endpoint, method = 'GET', data = null, useToken = true) {
+            console.log(`Making ${method} request to ${endpoint}`);
+            
+            // Build request options
+            const options = {
+                method,
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            
+            // Add auth token if required
+            if (useToken) {
+                const token = localStorage.getItem('token');
+                if (token) {
+                    options.headers['Authorization'] = `Bearer ${token}`;
+                }
+            }
+            
+            // Add body for POST/PUT requests
+            if (data && (method === 'POST' || method === 'PUT')) {
+                options.body = JSON.stringify(data);
+                console.log('Request data:', data);
+            }
+            
+            try {
+                // Use our direct endpoint files for auth, use the router for other endpoints
+                let url;
+                if (endpoint === 'auth/login') {
+                    url = `${this.baseUrl}/direct-login.php`;
+                } else if (endpoint === 'auth/register') {
+                    url = `${this.baseUrl}/direct-register.php`;
+                } else {
+                    url = `${this.baseUrl}/endpoint.php?route=${endpoint}`;
+                }
+                
+                console.log('Making request to:', url);
+                
+                const response = await fetch(url, options);
+                console.log('Response status:', response.status);
+                
+                // Get response text first for debugging
+                const responseText = await response.text();
+                console.log('Raw response:', responseText);
+                
+                // Try to parse as JSON
+                let result;
+                try {
+                    result = JSON.parse(responseText);
+                } catch (parseError) {
+                    console.error('JSON parse error:', parseError);
+                    throw { 
+                        status: response.status, 
+                        message: `Failed to parse JSON response: ${responseText.substring(0, 100)}...` 
+                    };
+                }
+                
+                if (!response.ok) {
+                    throw { 
+                        status: response.status, 
+                        message: result.error || result.message || 'Unknown error occurred'
+                    };
+                }
+                
+                return result;
+            } catch (error) {
+                console.error('API Error:', error);
+                throw error;
+            }
+        },
+        
+        /**
+         * User login
+         * 
+         * @param {string} username - Username or email
+         * @param {string} password - Password
+         * @returns {Promise} - Login response with user details and token
+         */
+        login(username, password) {
+            return this.request('auth/login', 'POST', { username, password }, false);
+        },
+        
+        /**
+         * User registration
+         * 
+         * @param {object} userData - User registration data
+         * @returns {Promise} - Registration response
+         */
+        register(userData) {
+            return this.request('auth/register', 'POST', userData, false);
+        },
+        
+        /**
+         * Verify authentication token
+         * 
+         * @returns {Promise} - Verification response
+         */
+        verifyToken() {
+            return this.request('auth/verify', 'GET');
+        },
+        
+        // Add more API methods as needed
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+        // Login button event
+        document.getElementById('loginBtn').addEventListener('click', async () => {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const resultDiv = document.getElementById('loginResult');
+            
+            try {
+                resultDiv.textContent = 'Sending request...';
+                const result = await API.login(username, password);
+                resultDiv.textContent = JSON.stringify(result, null, 2);
+                
+                // Store token in localStorage
+                if (result.data && result.data.token) {
+                    localStorage.setItem('token', result.data.token);
+                }
+            } catch (error) {
+                resultDiv.textContent = `Error: ${JSON.stringify(error, null, 2)}`;
+            }
+        });
+        
+        // Register button event
+        document.getElementById('registerBtn').addEventListener('click', async () => {
+            const userData = {
+                username: document.getElementById('regUsername').value,
+                email: document.getElementById('regEmail').value,
+                password: document.getElementById('regPassword').value,
+                fullName: document.getElementById('regFullName').value
+            };
+            const resultDiv = document.getElementById('registerResult');
+            
+            try {
+                resultDiv.textContent = 'Sending request...';
+                const result = await API.register(userData);
+                resultDiv.textContent = JSON.stringify(result, null, 2);
+            } catch (error) {
+                resultDiv.textContent = `Error: ${JSON.stringify(error, null, 2)}`;
+            }
+        });
+    });
+    </script>
+</body>
+</html> 

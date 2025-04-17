@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# If my frontend code needs to make requests to your PHP backend (like fetching data, submitting forms, etc.), you'll need to use the URL that points to the project through the web server : http://localhost/PROJECT-BITRADER
+
+
+- You can @ files here
+- You can use markdown but dont have to

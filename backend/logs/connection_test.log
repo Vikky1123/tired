@@ -1,0 +1,756 @@
+=== Connection test at 2025-04-16 17:31:31 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:31:31"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:22 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:22"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:31 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:31"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:32 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:32"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:32 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:32"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:33 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:33"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:37 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:37"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:39 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:39"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:40 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:40"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:45 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:45"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:46 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:46"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:46 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:46"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:47 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:47"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:48 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:48"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:48 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:48"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:49 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:49"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:49 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:49"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:50 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:50"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:50 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:50"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:36:50 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:36:50"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 17:57:33 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 17:57:33"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 18:08:48 ===
+Request Method: HEAD
+Remote Address: ::1
+User Agent: unknown
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 18:08:48"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 18:09:28 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 18:09:28"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 18:11:20 ===
+Request Method: HEAD
+Remote Address: ::1
+User Agent: unknown
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 18:11:20"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 21:06:46 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 21:06:46"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 21:06:53 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 21:06:53"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}
+=== Connection test at 2025-04-16 21:11:07 ===
+Request Method: GET
+Remote Address: ::1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Response: {
+    "success": true,
+    "message": "Connection test completed",
+    "data": {
+        "server_info": {
+            "php_version": "8.2.12",
+            "server_software": "Apache\/2.4.58 (Win64) OpenSSL\/3.1.3 PHP\/8.2.12",
+            "document_root": "C:\/xampp\/htdocs",
+            "script_filename": "C:\/xampp\/htdocs\/PROJECT-BITRADER\/backend\/connection_test.php",
+            "request_time": "2025-04-16 21:11:07"
+        },
+        "database_connection": {
+            "status": "Success",
+            "error": ""
+        },
+        "api_endpoints": {
+            "login_api_exists": true,
+            "login_api_path": "C:\\Users\\LUPA\\Downloads\\PROJECT BITRADER\\backend\/direct-login.php"
+        },
+        "extensions": {
+            "mysqli_loaded": true
+        }
+    }
+}

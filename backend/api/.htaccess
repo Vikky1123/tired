@@ -1,0 +1,39 @@
+# Enable CORS for all API endpoints
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+
+# Handle OPTIONS requests
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
+
+# Ensure all PHP errors are displayed
+php_flag display_errors on
+php_value error_reporting E_ALL
+
+# Protect directory listings
+Options -Indexes
+
+# Process any API requests with auth/login.php, auth/register.php, etc.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^auth/login$ auth/login.php [L,QSA]
+RewriteRule ^auth/register$ auth/register.php [L,QSA]
+
+# Send auth headers along with the request
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Protect .env and config files
+<FilesMatch "^\.env|config\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Set default character set
+AddDefaultCharset UTF-8
+
+# PHP error handling
+php_flag display_errors Off
+php_value error_reporting E_ALL & ~E_NOTICE & ~E_DEPRECATED
+php_value error_log ../logs/php_errors.log 
